@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital & IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">ConexãoConsciente</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Cidadania Digital</a></li>
+                <li><a href="#ia">O Papel da IA</a></li>
+                <li><a href="#quiz">Desafio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>O Futuro da Cidadania na Era da Inteligência Artificial</h1>
+            <p>Navegar na internet exige mais do que conexão, exige responsabilidade, ética e criticidade.</p>
+            <a href="#sobre" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="content-section">
+        <h2>O que é Cidadania Digital?</h2>
+        <p>É o uso consciente, responsável e ético da tecnologia. Ser um bom cidadão digital significa proteger seus dados, respeitar o próximo e saber identificar informações falsas no ambiente virtual.</p>
+        
+        <div class="cards">
+            <div class="card">
+                <h3>Etiqueta Virtual</h3>
+                <p>Tratar os outros com respeito, evitando o cyberbullying e o discurso de ódio.</p>
+            </div>
+            <div class="card">
+                <h3>Segurança de Dados</h3>
+                <p>Proteger suas senhas, privacidade e entender como seus dados são coletados.</p>
+            </div>
+            <div class="card">
+                <h3>Pensamento Crítico</h3>
+                <p>Avaliar as informações que você consome e compartilha para não espalhar fake news.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ia" class="content-section bg-alt">
+        <h2>A IA e a Nossa Cidadania</h2>
+        <p>A Inteligência Artificial já faz parte do nosso dia a dia, desde algoritmos de redes sociais até assistentes virtuais. Mas como ela impacta nossa vida?</p>
+        
+        <div class="ia-grid">
+            <div class="ia-item">
+                <strong>Algoritmos e Bolhas:</strong> As IAs tendem a nos mostrar apenas o que gostamos, criando "bolhas" que limitam nossa visão de mundo.
+            </div>
+            <div class="ia-item">
+                <strong>Deepfakes e Desinformação:</strong> Ferramentas baseadas em IA podem criar imagens e vídeos falsos ultra-realistas. O cidadão digital precisa estar atento!
+            </div>
+            <div class="ia-item">
+                <strong>Ética na IA:</strong> Devemos exigir que os criadores de tecnologia desenvolvam IAs justas, que não perpetuem preconceitos.
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="content-section">
+        <h2>Teste seus Conhecimentos</h2>
+        <p>Você é um bom cidadão digital na era da IA?</p>
+        
+        <div class="quiz-container">
+            <p id="pergunta">Se você vir uma notícia absurda gerada por IA com um vídeo polêmico de alguém, o que você faz?</p>
+            <button class="btn-quiz" onclick="verificarResposta(true)">Compartilho na hora para alertar todo mundo</button>
+            <button class="btn-quiz" onclick="verificarResposta(false)">Desconfio, procuro em fontes confiáveis e não compartilho se for falsa</button>
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Conexão Consciente - Criado para um futuro digital mais seguro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
